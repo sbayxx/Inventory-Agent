@@ -1,0 +1,10 @@
+Options -Indexes
+DirectoryIndex dashboard.php
+RewriteEngine On
+RewriteBase /inventory/
+RewriteRule ^scan$ api.php [L]
+RewriteRule ^$ dashboard.php [L]
+SetEnvIf Authorization "(.*)" HTTP_AUTHORIZATION=$1
+<FilesMatch "^\.">
+Require all denied
+</FilesMatch>

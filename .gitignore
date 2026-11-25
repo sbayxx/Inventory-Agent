@@ -1,0 +1,12 @@
+# Secrets
+.env
+backend/inventory/src/hosting-config.php
+
+# Release binaries (large)
+backend/inventory/releases/*.bin
+
+# Backups
+backend/inventory/backups/
+
+# OS
+.DS_Store

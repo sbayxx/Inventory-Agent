@@ -1,0 +1,739 @@
+{
+  "version": "2026-10-19.1",
+  "categories": [
+    {
+      "id": "ai-tools",
+      "label": "AI-tools"
+    },
+    {
+      "id": "streaming-video",
+      "label": "Streaming · video"
+    },
+    {
+      "id": "streaming-audio",
+      "label": "Streaming · lyd"
+    },
+    {
+      "id": "social",
+      "label": "Sociale medier"
+    },
+    {
+      "id": "communication",
+      "label": "Chat, mail og møder"
+    },
+    {
+      "id": "search",
+      "label": "Søgemaskiner"
+    },
+    {
+      "id": "news",
+      "label": "Nyheder og medier"
+    },
+    {
+      "id": "education",
+      "label": "Uddannelse og reference"
+    },
+    {
+      "id": "development",
+      "label": "Udvikling og IT-dokumentation"
+    },
+    {
+      "id": "cloud-storage",
+      "label": "Cloudlagring og fildeling"
+    },
+    {
+      "id": "productivity",
+      "label": "Produktivitet og kontor"
+    },
+    {
+      "id": "business",
+      "label": "Virksomhedssoftware"
+    },
+    {
+      "id": "shopping",
+      "label": "Shopping og markedspladser"
+    },
+    {
+      "id": "finance",
+      "label": "Bank og finans"
+    },
+    {
+      "id": "travel",
+      "label": "Rejser og transport"
+    },
+    {
+      "id": "gaming",
+      "label": "Spil og gaming"
+    },
+    {
+      "id": "government",
+      "label": "Offentlig service"
+    },
+    {
+      "id": "health",
+      "label": "Sundhedswebsites"
+    },
+    {
+      "id": "security-tools",
+      "label": "IT-sikkerhedsværktøjer"
+    },
+    {
+      "id": "adult",
+      "label": "Voksenindhold"
+    },
+    {
+      "id": "gambling",
+      "label": "Spil om penge"
+    },
+    {
+      "id": "uncategorized",
+      "label": "Ukategoriseret"
+    }
+  ],
+  "rules": [
+    {
+      "domain": "chatgpt.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "openai.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "claude.ai",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "claude.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "anthropic.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "gemini.google.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "aistudio.google.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "perplexity.ai",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "copilot.microsoft.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "cursor.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "cursor.sh",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "deepseek.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "poe.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "mistral.ai",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "grok.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "huggingface.co",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "midjourney.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "runwayml.com",
+      "category": "ai-tools"
+    },
+    {
+      "domain": "youtube.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "netflix.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "twitch.tv",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "disneyplus.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "primevideo.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "max.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "tv.apple.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "vimeo.com",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "tv2play.dk",
+      "category": "streaming-video"
+    },
+    {
+      "domain": "spotify.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "music.youtube.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "soundcloud.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "music.apple.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "tidal.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "deezer.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "podcasts.apple.com",
+      "category": "streaming-audio"
+    },
+    {
+      "domain": "facebook.com",
+      "category": "social"
+    },
+    {
+      "domain": "instagram.com",
+      "category": "social"
+    },
+    {
+      "domain": "tiktok.com",
+      "category": "social"
+    },
+    {
+      "domain": "x.com",
+      "category": "social"
+    },
+    {
+      "domain": "twitter.com",
+      "category": "social"
+    },
+    {
+      "domain": "reddit.com",
+      "category": "social"
+    },
+    {
+      "domain": "linkedin.com",
+      "category": "social"
+    },
+    {
+      "domain": "pinterest.com",
+      "category": "social"
+    },
+    {
+      "domain": "snapchat.com",
+      "category": "social"
+    },
+    {
+      "domain": "bsky.app",
+      "category": "social"
+    },
+    {
+      "domain": "threads.net",
+      "category": "social"
+    },
+    {
+      "domain": "outlook.com",
+      "category": "communication"
+    },
+    {
+      "domain": "outlook.office.com",
+      "category": "communication"
+    },
+    {
+      "domain": "mail.google.com",
+      "category": "communication"
+    },
+    {
+      "domain": "meet.google.com",
+      "category": "communication"
+    },
+    {
+      "domain": "teams.microsoft.com",
+      "category": "communication"
+    },
+    {
+      "domain": "zoom.us",
+      "category": "communication"
+    },
+    {
+      "domain": "slack.com",
+      "category": "communication"
+    },
+    {
+      "domain": "discord.com",
+      "category": "communication"
+    },
+    {
+      "domain": "whatsapp.com",
+      "category": "communication"
+    },
+    {
+      "domain": "telegram.org",
+      "category": "communication"
+    },
+    {
+      "domain": "messenger.com",
+      "category": "communication"
+    },
+    {
+      "domain": "google.com",
+      "category": "search"
+    },
+    {
+      "domain": "google.dk",
+      "category": "search"
+    },
+    {
+      "domain": "bing.com",
+      "category": "search"
+    },
+    {
+      "domain": "duckduckgo.com",
+      "category": "search"
+    },
+    {
+      "domain": "yahoo.com",
+      "category": "search"
+    },
+    {
+      "domain": "ecosia.org",
+      "category": "search"
+    },
+    {
+      "domain": "brave.com",
+      "category": "search"
+    },
+    {
+      "domain": "dr.dk",
+      "category": "news"
+    },
+    {
+      "domain": "tv2.dk",
+      "category": "news"
+    },
+    {
+      "domain": "bbc.com",
+      "category": "news"
+    },
+    {
+      "domain": "reuters.com",
+      "category": "news"
+    },
+    {
+      "domain": "theguardian.com",
+      "category": "news"
+    },
+    {
+      "domain": "nytimes.com",
+      "category": "news"
+    },
+    {
+      "domain": "politiken.dk",
+      "category": "news"
+    },
+    {
+      "domain": "berlingske.dk",
+      "category": "news"
+    },
+    {
+      "domain": "jyllands-posten.dk",
+      "category": "news"
+    },
+    {
+      "domain": "wikipedia.org",
+      "category": "education"
+    },
+    {
+      "domain": "coursera.org",
+      "category": "education"
+    },
+    {
+      "domain": "edx.org",
+      "category": "education"
+    },
+    {
+      "domain": "khanacademy.org",
+      "category": "education"
+    },
+    {
+      "domain": "udemy.com",
+      "category": "education"
+    },
+    {
+      "domain": "lex.dk",
+      "category": "education"
+    },
+    {
+      "domain": "mit.edu",
+      "category": "education"
+    },
+    {
+      "domain": "github.com",
+      "category": "development"
+    },
+    {
+      "domain": "gitlab.com",
+      "category": "development"
+    },
+    {
+      "domain": "stackoverflow.com",
+      "category": "development"
+    },
+    {
+      "domain": "developer.mozilla.org",
+      "category": "development"
+    },
+    {
+      "domain": "developer.chrome.com",
+      "category": "development"
+    },
+    {
+      "domain": "developer.apple.com",
+      "category": "development"
+    },
+    {
+      "domain": "learn.microsoft.com",
+      "category": "development"
+    },
+    {
+      "domain": "go.dev",
+      "category": "development"
+    },
+    {
+      "domain": "python.org",
+      "category": "development"
+    },
+    {
+      "domain": "npmjs.com",
+      "category": "development"
+    },
+    {
+      "domain": "pkg.go.dev",
+      "category": "development"
+    },
+    {
+      "domain": "rust-lang.org",
+      "category": "development"
+    },
+    {
+      "domain": "drive.google.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "dropbox.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "onedrive.live.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "sharepoint.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "box.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "wetransfer.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "icloud.com",
+      "category": "cloud-storage"
+    },
+    {
+      "domain": "docs.google.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "sheets.google.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "slides.google.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "office.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "microsoft365.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "microsoft.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "notion.so",
+      "category": "productivity"
+    },
+    {
+      "domain": "notion.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "canva.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "figma.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "miro.com",
+      "category": "productivity"
+    },
+    {
+      "domain": "salesforce.com",
+      "category": "business"
+    },
+    {
+      "domain": "hubspot.com",
+      "category": "business"
+    },
+    {
+      "domain": "atlassian.net",
+      "category": "business"
+    },
+    {
+      "domain": "atlassian.com",
+      "category": "business"
+    },
+    {
+      "domain": "asana.com",
+      "category": "business"
+    },
+    {
+      "domain": "monday.com",
+      "category": "business"
+    },
+    {
+      "domain": "trello.com",
+      "category": "business"
+    },
+    {
+      "domain": "servicenow.com",
+      "category": "business"
+    },
+    {
+      "domain": "zendesk.com",
+      "category": "business"
+    },
+    {
+      "domain": "amazon.com",
+      "category": "shopping"
+    },
+    {
+      "domain": "amazon.de",
+      "category": "shopping"
+    },
+    {
+      "domain": "ebay.com",
+      "category": "shopping"
+    },
+    {
+      "domain": "dba.dk",
+      "category": "shopping"
+    },
+    {
+      "domain": "pricerunner.dk",
+      "category": "shopping"
+    },
+    {
+      "domain": "proshop.dk",
+      "category": "shopping"
+    },
+    {
+      "domain": "elgiganten.dk",
+      "category": "shopping"
+    },
+    {
+      "domain": "ikea.com",
+      "category": "shopping"
+    },
+    {
+      "domain": "danskebank.dk",
+      "category": "finance"
+    },
+    {
+      "domain": "nordea.dk",
+      "category": "finance"
+    },
+    {
+      "domain": "jyskebank.dk",
+      "category": "finance"
+    },
+    {
+      "domain": "nykredit.dk",
+      "category": "finance"
+    },
+    {
+      "domain": "paypal.com",
+      "category": "finance"
+    },
+    {
+      "domain": "stripe.com",
+      "category": "finance"
+    },
+    {
+      "domain": "booking.com",
+      "category": "travel"
+    },
+    {
+      "domain": "airbnb.com",
+      "category": "travel"
+    },
+    {
+      "domain": "expedia.com",
+      "category": "travel"
+    },
+    {
+      "domain": "sas.dk",
+      "category": "travel"
+    },
+    {
+      "domain": "sas.com",
+      "category": "travel"
+    },
+    {
+      "domain": "dsb.dk",
+      "category": "travel"
+    },
+    {
+      "domain": "rejseplanen.dk",
+      "category": "travel"
+    },
+    {
+      "domain": "maps.google.com",
+      "category": "travel"
+    },
+    {
+      "domain": "steampowered.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "steamcommunity.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "epicgames.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "roblox.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "minecraft.net",
+      "category": "gaming"
+    },
+    {
+      "domain": "xbox.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "playstation.com",
+      "category": "gaming"
+    },
+    {
+      "domain": "borger.dk",
+      "category": "government"
+    },
+    {
+      "domain": "virk.dk",
+      "category": "government"
+    },
+    {
+      "domain": "skat.dk",
+      "category": "government"
+    },
+    {
+      "domain": "sundhed.dk",
+      "category": "government"
+    },
+    {
+      "domain": "mitid.dk",
+      "category": "government"
+    },
+    {
+      "domain": "e-boks.dk",
+      "category": "government"
+    },
+    {
+      "domain": "who.int",
+      "category": "health"
+    },
+    {
+      "domain": "sundhedsstyrelsen.dk",
+      "category": "health"
+    },
+    {
+      "domain": "netdoktor.dk",
+      "category": "health"
+    },
+    {
+      "domain": "virustotal.com",
+      "category": "security-tools"
+    },
+    {
+      "domain": "shodan.io",
+      "category": "security-tools"
+    },
+    {
+      "domain": "haveibeenpwned.com",
+      "category": "security-tools"
+    },
+    {
+      "domain": "owasp.org",
+      "category": "security-tools"
+    },
+    {
+      "domain": "nvd.nist.gov",
+      "category": "security-tools"
+    }
+  ]
+}

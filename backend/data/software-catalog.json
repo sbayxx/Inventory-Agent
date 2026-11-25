@@ -1,0 +1,829 @@
+{
+  "version": 1,
+  "taxonomy_source": "https://specifications.freedesktop.org/menu/latest/category-registry.html",
+  "categories": [
+    {
+      "id": "Office",
+      "label": "Kontor og forretning",
+      "subcategories": {
+        "OfficeSuite": "Kontorpakker",
+        "Email": "E-mail",
+        "Finance": "Økonomi",
+        "ProjectManagement": "Projektstyring",
+        "Viewer": "PDF og dokumentvisning"
+      }
+    },
+    {
+      "id": "Network",
+      "label": "Netværk og kommunikation",
+      "subcategories": {
+        "WebBrowser": "Webbrowsere",
+        "InstantMessaging": "Chat og samarbejde",
+        "VideoConference": "Videomøder",
+        "RemoteAccess": "Fjernadgang og VPN",
+        "FileTransfer": "Filoverførsel og synkronisering"
+      }
+    },
+    {
+      "id": "Development",
+      "label": "Udvikling",
+      "subcategories": {
+        "IDE": "Udviklingsmiljøer",
+        "RevisionControl": "Versionsstyring",
+        "Database": "Databaser",
+        "X-Runtime": "Runtime og udviklingsplatforme"
+      }
+    },
+    {
+      "id": "System",
+      "label": "System og sikkerhed",
+      "subcategories": {
+        "Security": "Sikkerhed",
+        "Emulator": "Virtualisering",
+        "X-Runtime": "Runtime og komponenter",
+        "X-Driver": "Drivere",
+        "X-Management": "Enhedsadministration"
+      }
+    },
+    {
+      "id": "Utility",
+      "label": "Hjælpeværktøjer",
+      "subcategories": {
+        "Archiving": "Arkivering og komprimering",
+        "TextEditor": "Tekstredigering"
+      }
+    },
+    {
+      "id": "Graphics",
+      "label": "Grafik og design",
+      "subcategories": {
+        "3DGraphics": "3D-grafik",
+        "RasterGraphics": "Billedredigering",
+        "VectorGraphics": "Vektorgrafik"
+      }
+    },
+    {
+      "id": "AudioVideo",
+      "label": "Lyd og video",
+      "subcategories": {
+        "Player": "Medieafspillere",
+        "AudioVideoEditing": "Lyd- og videoredigering"
+      }
+    },
+    {
+      "id": "Education",
+      "label": "Uddannelse",
+      "subcategories": {}
+    },
+    {
+      "id": "Science",
+      "label": "Videnskab",
+      "subcategories": {}
+    },
+    {
+      "id": "Game",
+      "label": "Spil",
+      "subcategories": {}
+    },
+    {
+      "id": "Settings",
+      "label": "Indstillinger",
+      "subcategories": {}
+    },
+    {
+      "id": "HealthFitness",
+      "label": "Sundhed og fitness",
+      "subcategories": {}
+    },
+    {
+      "id": "Unclassified",
+      "label": "Ukategoriseret",
+      "subcategories": {}
+    }
+  ],
+  "products": [
+    {
+      "id": "microsoft.edge",
+      "name": "Microsoft Edge",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft Edge",
+        "Microsoft Edge",
+        "Microsoft Edge (x64)"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Network",
+      "subcategory": "WebBrowser",
+      "source_type": "cask",
+      "source_id": "microsoft-edge",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/microsoft-edge.json"
+    },
+    {
+      "id": "google.chrome",
+      "name": "Google Chrome",
+      "publisher": "Google",
+      "aliases": [
+        "Google Chrome",
+        "Google Chrome"
+      ],
+      "publishers": [
+        "Google",
+        "Google LLC",
+        "Google Inc."
+      ],
+      "category": "Network",
+      "subcategory": "WebBrowser",
+      "source_type": "cask",
+      "source_id": "google-chrome",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/google-chrome.json"
+    },
+    {
+      "id": "mozilla.firefox",
+      "name": "Mozilla Firefox",
+      "publisher": "Mozilla",
+      "aliases": [
+        "Mozilla Firefox",
+        "Firefox"
+      ],
+      "publishers": [
+        "Mozilla",
+        "Mozilla Corporation"
+      ],
+      "category": "Network",
+      "subcategory": "WebBrowser",
+      "source_type": "cask",
+      "source_id": "firefox",
+      "pattern": "^Mozilla Firefox(?: \\([a-zA-Z-]+(?: [a-zA-Z-]+)*\\))?$",
+      "source_url": "https://formulae.brew.sh/api/cask/firefox.json"
+    },
+    {
+      "id": "microsoft.365",
+      "name": "Microsoft 365",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft 365",
+        "Microsoft 365 Apps for enterprise",
+        "Microsoft 365 Apps for business",
+        "Microsoft Office 365",
+        "Microsoft 365"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Office",
+      "subcategory": "OfficeSuite",
+      "source_type": "cask",
+      "source_id": "microsoft-office",
+      "pattern": "^(?:Microsoft 365(?: Apps for (?:enterprise|business))?|Microsoft Office 365)(?: - [a-z]{2}-[a-z]{2})?$",
+      "source_url": "https://formulae.brew.sh/api/cask/microsoft-office.json"
+    },
+    {
+      "id": "microsoft.teams",
+      "name": "Microsoft Teams",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft Teams",
+        "Microsoft Teams classic",
+        "Teams Machine-Wide Installer",
+        "Microsoft Teams Meeting Add-in for Microsoft Office"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Network",
+      "subcategory": "InstantMessaging",
+      "source_type": "cask",
+      "source_id": "microsoft-teams",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/microsoft-teams.json"
+    },
+    {
+      "id": "microsoft.onedrive",
+      "name": "Microsoft OneDrive",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft OneDrive",
+        "OneDrive"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Network",
+      "subcategory": "FileTransfer",
+      "source_type": "cask",
+      "source_id": "onedrive",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/onedrive.json"
+    },
+    {
+      "id": "microsoft.vscode",
+      "name": "Visual Studio Code",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Visual Studio Code",
+        "Microsoft Visual Studio Code",
+        "Microsoft Visual Studio Code (User)"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Development",
+      "subcategory": "IDE",
+      "source_type": "cask",
+      "source_id": "visual-studio-code",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/visual-studio-code.json"
+    },
+    {
+      "id": "microsoft.powershell",
+      "name": "PowerShell",
+      "publisher": "Microsoft",
+      "aliases": [
+        "PowerShell",
+        "PowerShell 7"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "Development",
+      "subcategory": "X-Runtime",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^PowerShell(?: [0-9.]+)?(?:-[a-z0-9-]+)?$",
+      "source_url": "https://learn.microsoft.com/en-us/powershell/scripting/overview"
+    },
+    {
+      "id": "microsoft.dotnet",
+      "name": "Microsoft .NET",
+      "publisher": "Microsoft",
+      "aliases": [
+        ".NET Runtime",
+        "Microsoft .NET Runtime",
+        "Microsoft Windows Desktop Runtime"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "System",
+      "subcategory": "X-Runtime",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^Microsoft (?:\\.NET(?: (?:Runtime|Host|Host FX Resolver|SDK))?|Windows Desktop Runtime)(?: -)?(?: [0-9.]+)?(?: \\((?:x64|x86|Arm64)\\))?$",
+      "source_url": "https://dotnet.microsoft.com/"
+    },
+    {
+      "id": "microsoft.vcredist",
+      "name": "Microsoft Visual C++ Redistributable",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft Visual C++ Redistributable"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "System",
+      "subcategory": "X-Runtime",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^Microsoft Visual C\\+\\+ [0-9 -]+ (?:Redistributable|(?:Minimum|Additional) Runtime)(?: \\((?:x64|x86|ARM64)\\))?(?: - [0-9.]+)?$",
+      "source_url": "https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist"
+    },
+    {
+      "id": "microsoft.webview2",
+      "name": "Microsoft Edge WebView2 Runtime",
+      "publisher": "Microsoft",
+      "aliases": [
+        "Microsoft Edge WebView2 Runtime"
+      ],
+      "publishers": [
+        "Microsoft",
+        "Microsoft Corporation"
+      ],
+      "category": "System",
+      "subcategory": "X-Runtime",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": null,
+      "source_url": "https://developer.microsoft.com/en-us/microsoft-edge/webview2/"
+    },
+    {
+      "id": "7zip.7zip",
+      "name": "7-Zip",
+      "publisher": "Igor Pavlov",
+      "aliases": [
+        "7-Zip",
+        "7-Zip"
+      ],
+      "publishers": [
+        "Igor Pavlov",
+        "Igor Pavlov"
+      ],
+      "category": "Utility",
+      "subcategory": "Archiving",
+      "source_type": "formula",
+      "source_id": "sevenzip",
+      "pattern": "^7-Zip(?: [0-9.]+)?(?: \\((?:x64|x86|arm64)(?: edition)?\\))?$",
+      "source_url": "https://formulae.brew.sh/api/formula/sevenzip.json"
+    },
+    {
+      "id": "videolan.vlc",
+      "name": "VLC media player",
+      "publisher": "VideoLAN",
+      "aliases": [
+        "VLC media player",
+        "VLC"
+      ],
+      "publishers": [
+        "VideoLAN",
+        "VideoLAN Team"
+      ],
+      "category": "AudioVideo",
+      "subcategory": "Player",
+      "source_type": "cask",
+      "source_id": "vlc",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/vlc.json"
+    },
+    {
+      "id": "zoom.zoom",
+      "name": "Zoom",
+      "publisher": "Zoom",
+      "aliases": [
+        "Zoom",
+        "Zoom Workplace",
+        "Zoom (64-bit)"
+      ],
+      "publishers": [
+        "Zoom",
+        "Zoom Video Communications, Inc.",
+        "Zoom Communications, Inc."
+      ],
+      "category": "Network",
+      "subcategory": "VideoConference",
+      "source_type": "cask",
+      "source_id": "zoom",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/zoom.json"
+    },
+    {
+      "id": "slack.slack",
+      "name": "Slack",
+      "publisher": "Slack",
+      "aliases": [
+        "Slack",
+        "Slack"
+      ],
+      "publishers": [
+        "Slack",
+        "Slack Technologies Inc.",
+        "Slack Technologies, LLC"
+      ],
+      "category": "Network",
+      "subcategory": "InstantMessaging",
+      "source_type": "cask",
+      "source_id": "slack",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/slack.json"
+    },
+    {
+      "id": "adobe.reader",
+      "name": "Adobe Acrobat Reader",
+      "publisher": "Adobe",
+      "aliases": [
+        "Adobe Acrobat Reader",
+        "Adobe Acrobat Reader DC",
+        "Adobe Acrobat Reader (64-bit)"
+      ],
+      "publishers": [
+        "Adobe",
+        "Adobe Systems Incorporated",
+        "Adobe Inc."
+      ],
+      "category": "Office",
+      "subcategory": "Viewer",
+      "source_type": "cask",
+      "source_id": "adobe-acrobat-reader",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/adobe-acrobat-reader.json"
+    },
+    {
+      "id": "adobe.photoshop",
+      "name": "Adobe Photoshop",
+      "publisher": "Adobe",
+      "aliases": [
+        "Adobe Photoshop"
+      ],
+      "publishers": [
+        "Adobe",
+        "Adobe Inc.",
+        "Adobe Systems Incorporated"
+      ],
+      "category": "Graphics",
+      "subcategory": "RasterGraphics",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^Adobe Photoshop(?: [0-9]{4})?$",
+      "source_url": "https://www.adobe.com/products/photoshop.html"
+    },
+    {
+      "id": "notepadplusplus.notepadplusplus",
+      "name": "Notepad++",
+      "publisher": "Notepad++",
+      "aliases": [
+        "Notepad++",
+        "Notepad++"
+      ],
+      "publishers": [
+        "Notepad++",
+        "Don Ho"
+      ],
+      "category": "Utility",
+      "subcategory": "TextEditor",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^Notepad\\+\\+(?: \\((?:64-bit x64|32-bit x86|64-bit ARM64)\\))?$",
+      "source_url": "https://notepad-plus-plus.org/"
+    },
+    {
+      "id": "git.git",
+      "name": "Git",
+      "publisher": "Git",
+      "aliases": [
+        "Git",
+        "Git"
+      ],
+      "publishers": [
+        "Git",
+        "The Git Development Community"
+      ],
+      "category": "Development",
+      "subcategory": "RevisionControl",
+      "source_type": "formula",
+      "source_id": "git",
+      "pattern": "^Git(?: version [0-9.a-z-]+)?$",
+      "source_url": "https://formulae.brew.sh/api/formula/git.json"
+    },
+    {
+      "id": "python.python",
+      "name": "Python",
+      "publisher": "Python Software Foundation",
+      "aliases": [
+        "Python"
+      ],
+      "publishers": [
+        "Python Software Foundation",
+        "Python Software Foundation"
+      ],
+      "category": "Development",
+      "subcategory": "X-Runtime",
+      "source_type": "formula",
+      "source_id": "python@3.14",
+      "pattern": "^Python [0-9.]+(?: \\((?:64-bit|32-bit|ARM64)\\))?$",
+      "source_url": "https://formulae.brew.sh/api/formula/python@3.14.json"
+    },
+    {
+      "id": "nodejs.nodejs",
+      "name": "Node.js",
+      "publisher": "OpenJS Foundation",
+      "aliases": [
+        "Node.js",
+        "Node.js"
+      ],
+      "publishers": [
+        "OpenJS Foundation",
+        "Node.js Foundation"
+      ],
+      "category": "Development",
+      "subcategory": "X-Runtime",
+      "source_type": "formula",
+      "source_id": "node",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/formula/node.json"
+    },
+    {
+      "id": "docker.desktop",
+      "name": "Docker Desktop",
+      "publisher": "Docker",
+      "aliases": [
+        "Docker Desktop",
+        "Docker"
+      ],
+      "publishers": [
+        "Docker",
+        "Docker Inc."
+      ],
+      "category": "System",
+      "subcategory": "Emulator",
+      "source_type": "cask",
+      "source_id": "docker-desktop",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/docker-desktop.json"
+    },
+    {
+      "id": "oracle.virtualbox",
+      "name": "Oracle VirtualBox",
+      "publisher": "Oracle",
+      "aliases": [
+        "Oracle VirtualBox",
+        "Oracle VM VirtualBox",
+        "VirtualBox"
+      ],
+      "publishers": [
+        "Oracle",
+        "Oracle Corporation"
+      ],
+      "category": "System",
+      "subcategory": "Emulator",
+      "source_type": "cask",
+      "source_id": "virtualbox",
+      "pattern": "^Oracle (?:VM )?VirtualBox(?: [0-9.]+)?$",
+      "source_url": "https://formulae.brew.sh/api/cask/virtualbox.json"
+    },
+    {
+      "id": "parallels.tools",
+      "name": "Parallels Tools",
+      "publisher": "Parallels",
+      "aliases": [
+        "Parallels Tools"
+      ],
+      "publishers": [
+        "Parallels",
+        "Parallels International GmbH",
+        "Parallels Inc."
+      ],
+      "category": "System",
+      "subcategory": "X-Driver",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": null,
+      "source_url": "https://docs.parallels.com/parallels-desktop-users-guide/parallels-tools"
+    },
+    {
+      "id": "teamviewer.teamviewer",
+      "name": "TeamViewer",
+      "publisher": "TeamViewer",
+      "aliases": [
+        "TeamViewer"
+      ],
+      "publishers": [
+        "TeamViewer",
+        "TeamViewer Germany GmbH"
+      ],
+      "category": "Network",
+      "subcategory": "RemoteAccess",
+      "source_type": "cask",
+      "source_id": "teamviewer",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/teamviewer.json"
+    },
+    {
+      "id": "anydesk.anydesk",
+      "name": "AnyDesk",
+      "publisher": "AnyDesk",
+      "aliases": [
+        "AnyDesk"
+      ],
+      "publishers": [
+        "AnyDesk",
+        "AnyDesk Software GmbH",
+        "philandro Software GmbH"
+      ],
+      "category": "Network",
+      "subcategory": "RemoteAccess",
+      "source_type": "cask",
+      "source_id": "anydesk",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/anydesk.json"
+    },
+    {
+      "id": "openvpn.connect",
+      "name": "OpenVPN Connect",
+      "publisher": "OpenVPN",
+      "aliases": [
+        "OpenVPN Connect"
+      ],
+      "publishers": [
+        "OpenVPN",
+        "OpenVPN Inc."
+      ],
+      "category": "Network",
+      "subcategory": "RemoteAccess",
+      "source_type": "cask",
+      "source_id": "openvpn-connect",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/openvpn-connect.json"
+    },
+    {
+      "id": "wireguard.wireguard",
+      "name": "WireGuard",
+      "publisher": "WireGuard",
+      "aliases": [
+        "WireGuard"
+      ],
+      "publishers": [
+        "WireGuard",
+        "WireGuard LLC"
+      ],
+      "category": "Network",
+      "subcategory": "RemoteAccess",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": null,
+      "source_url": "https://www.wireguard.com/"
+    },
+    {
+      "id": "winscp.winscp",
+      "name": "WinSCP",
+      "publisher": "Martin Prikryl",
+      "aliases": [
+        "WinSCP"
+      ],
+      "publishers": [
+        "Martin Prikryl",
+        "Martin Prikryl"
+      ],
+      "category": "Network",
+      "subcategory": "FileTransfer",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": "^WinSCP(?: [0-9.]+)?$",
+      "source_url": "https://winscp.net/"
+    },
+    {
+      "id": "filezilla.filezilla",
+      "name": "FileZilla",
+      "publisher": "FileZilla",
+      "aliases": [
+        "FileZilla",
+        "FileZilla Client"
+      ],
+      "publishers": [
+        "FileZilla",
+        "Tim Kosse"
+      ],
+      "category": "Network",
+      "subcategory": "FileTransfer",
+      "source_type": "vendor",
+      "source_id": "",
+      "pattern": null,
+      "source_url": "https://filezilla-project.org/"
+    },
+    {
+      "id": "libreoffice.libreoffice",
+      "name": "LibreOffice",
+      "publisher": "The Document Foundation",
+      "aliases": [
+        "LibreOffice"
+      ],
+      "publishers": [
+        "The Document Foundation",
+        "The Document Foundation"
+      ],
+      "category": "Office",
+      "subcategory": "OfficeSuite",
+      "source_type": "cask",
+      "source_id": "libreoffice",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/libreoffice.json"
+    },
+    {
+      "id": "dropbox.dropbox",
+      "name": "Dropbox",
+      "publisher": "Dropbox",
+      "aliases": [
+        "Dropbox"
+      ],
+      "publishers": [
+        "Dropbox",
+        "Dropbox, Inc."
+      ],
+      "category": "Network",
+      "subcategory": "FileTransfer",
+      "source_type": "cask",
+      "source_id": "dropbox",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/dropbox.json"
+    },
+    {
+      "id": "bitwarden.bitwarden",
+      "name": "Bitwarden",
+      "publisher": "Bitwarden",
+      "aliases": [
+        "Bitwarden"
+      ],
+      "publishers": [
+        "Bitwarden",
+        "Bitwarden Inc."
+      ],
+      "category": "System",
+      "subcategory": "Security",
+      "source_type": "cask",
+      "source_id": "bitwarden",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/bitwarden.json"
+    },
+    {
+      "id": "1password.1password",
+      "name": "1Password",
+      "publisher": "1Password",
+      "aliases": [
+        "1Password"
+      ],
+      "publishers": [
+        "1Password",
+        "AgileBits Inc."
+      ],
+      "category": "System",
+      "subcategory": "Security",
+      "source_type": "cask",
+      "source_id": "1password",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/1password.json"
+    },
+    {
+      "id": "gimp.gimp",
+      "name": "GIMP",
+      "publisher": "GIMP",
+      "aliases": [
+        "GIMP",
+        "GNU Image Manipulation Program"
+      ],
+      "publishers": [
+        "GIMP",
+        "The GIMP Team"
+      ],
+      "category": "Graphics",
+      "subcategory": "RasterGraphics",
+      "source_type": "cask",
+      "source_id": "gimp",
+      "pattern": "^GIMP(?: [0-9.]+)?$",
+      "source_url": "https://formulae.brew.sh/api/cask/gimp.json"
+    },
+    {
+      "id": "inkscape.inkscape",
+      "name": "Inkscape",
+      "publisher": "Inkscape",
+      "aliases": [
+        "Inkscape"
+      ],
+      "publishers": [
+        "Inkscape",
+        "Inkscape Project"
+      ],
+      "category": "Graphics",
+      "subcategory": "VectorGraphics",
+      "source_type": "cask",
+      "source_id": "inkscape",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/inkscape.json"
+    },
+    {
+      "id": "blender.blender",
+      "name": "Blender",
+      "publisher": "Blender Foundation",
+      "aliases": [
+        "Blender"
+      ],
+      "publishers": [
+        "Blender Foundation",
+        "Blender Foundation"
+      ],
+      "category": "Graphics",
+      "subcategory": "3DGraphics",
+      "source_type": "cask",
+      "source_id": "blender",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/blender.json"
+    },
+    {
+      "id": "obs.obsstudio",
+      "name": "OBS Studio",
+      "publisher": "OBS Project",
+      "aliases": [
+        "OBS Studio"
+      ],
+      "publishers": [
+        "OBS Project",
+        "OBS Project"
+      ],
+      "category": "AudioVideo",
+      "subcategory": "AudioVideoEditing",
+      "source_type": "cask",
+      "source_id": "obs",
+      "pattern": null,
+      "source_url": "https://formulae.brew.sh/api/cask/obs.json"
+    }
+  ]
+}

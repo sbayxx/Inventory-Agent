@@ -1,0 +1,226 @@
+{
+    "microsoft.edge": {
+        "description": "Multi-platform web browser",
+        "homepage": "https://www.microsoft.com/en-us/edge?form=",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/microsoft-edge.json",
+        "source_sha256": "5df16b5418435bb09a146caf04c5b319aff487f794f6ff10bcd752b83fcb10a6",
+        "fetched_at": "2026-10-29 10:52:49"
+    },
+    "google.chrome": {
+        "description": "Web browser",
+        "homepage": "https://www.google.com/chrome/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/google-chrome.json",
+        "source_sha256": "8e03d870e36b6b14465d11db94df3869e58643357ae234593547c5e76f2b8e5b",
+        "fetched_at": "2026-10-29 10:52:50"
+    },
+    "mozilla.firefox": {
+        "description": "Web browser",
+        "homepage": "https://www.mozilla.org/firefox/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/firefox.json",
+        "source_sha256": "a8de5e3ebb49737f683b985411c7a9a16df86742519bfc7553cf8fe4282a538e",
+        "fetched_at": "2026-10-29 10:52:50"
+    },
+    "microsoft.365": {
+        "description": "Office suite",
+        "homepage": "https://www.microsoft.com/en-us/microsoft-365/mac/microsoft-365-for-mac/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/microsoft-office.json",
+        "source_sha256": "e7fdcb5f70eb4c7847e5fccbfbf0e4ec4d4e8de3bd9627a03d872c8302e30c32",
+        "fetched_at": "2026-10-29 10:52:50"
+    },
+    "microsoft.teams": {
+        "description": "Meet, chat, call, and collaborate in just one place",
+        "homepage": "https://www.microsoft.com/en/microsoft-teams/group-chat-software/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/microsoft-teams.json",
+        "source_sha256": "e797692d16f2f4b4166720600c6ace987381de9aece1da7e16b952757a274074",
+        "fetched_at": "2026-10-29 10:52:50"
+    },
+    "microsoft.onedrive": {
+        "description": "Cloud storage client",
+        "homepage": "https://www.microsoft.com/en-us/microsoft-365/onedrive/online-cloud-storage",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/onedrive.json",
+        "source_sha256": "b76777464989c9d88ee6a9613be60c98688227e0fd244a35155554a10c0bb373",
+        "fetched_at": "2026-10-29 10:52:51"
+    },
+    "microsoft.vscode": {
+        "description": "Open-source code editor",
+        "homepage": "https://code.visualstudio.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/visual-studio-code.json",
+        "source_sha256": "17938f23d7d9b54d699fb62509eb60869f922dbc05cacf9cd5eed083d5f33d4d",
+        "fetched_at": "2026-10-29 10:52:51"
+    },
+    "7zip.7zip": {
+        "description": "7-Zip is a file archiver with a high compression ratio",
+        "homepage": "https://7-zip.org",
+        "license": "LGPL-2.1-or-later AND BSD-3-Clause",
+        "source_url": "https://formulae.brew.sh/api/formula/sevenzip.json",
+        "source_sha256": "a45a49b1b53cc1094b7b610bab47e76aa095f2303676069bb62ed441ddc59cf3",
+        "fetched_at": "2026-10-29 10:52:52"
+    },
+    "videolan.vlc": {
+        "description": "Multimedia player",
+        "homepage": "https://www.videolan.org/vlc/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/vlc.json",
+        "source_sha256": "f998737e06761d65b50cad6b327c4f6e6a28d8bd41b357d866d124b64923d9d3",
+        "fetched_at": "2026-10-29 10:52:52"
+    },
+    "zoom.zoom": {
+        "description": "Video communication and virtual meeting platform",
+        "homepage": "https://www.zoom.us/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/zoom.json",
+        "source_sha256": "21c261d5e08bf0def58f57f109f38dd184a6cc41775208b949491659f65649ed",
+        "fetched_at": "2026-10-29 10:52:52"
+    },
+    "slack.slack": {
+        "description": "Team communication and collaboration software",
+        "homepage": "https://slack.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/slack.json",
+        "source_sha256": "1f044a369d0c8f8580d2883bb6f7a82b50e1a33528d0945285fac9f0f8844e09",
+        "fetched_at": "2026-10-29 10:52:52"
+    },
+    "adobe.reader": {
+        "description": "View, print, and comment on PDF documents",
+        "homepage": "https://www.adobe.com/acrobat/pdf-reader.html",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/adobe-acrobat-reader.json",
+        "source_sha256": "d20b5fece48f89f77196ae7fd42fd40e6ccdb97857e14099f2c50c01102853db",
+        "fetched_at": "2026-10-29 10:52:53"
+    },
+    "git.git": {
+        "description": "Distributed revision control system",
+        "homepage": "https://git-scm.com",
+        "license": "GPL-2.0-only AND GPL-2.0-or-later AND LGPL-2.1-or-later AND BSD-3-Clause AND MIT",
+        "source_url": "https://formulae.brew.sh/api/formula/git.json",
+        "source_sha256": "211d411ea1c1d236191b6616b9ae9379a854f195ddc3cba3987e3349ac9a8af9",
+        "fetched_at": "2026-10-29 10:52:53"
+    },
+    "python.python": {
+        "description": "Interpreted, interactive, object-oriented programming language",
+        "homepage": "https://www.python.org/",
+        "license": "Python-2.0",
+        "source_url": "https://formulae.brew.sh/api/formula/python@3.14.json",
+        "source_sha256": "013ce681f69ee831dfd2e6bfa0f9d4a2d52b6a5d556dfa543ec1ba0838b89d9e",
+        "fetched_at": "2026-10-29 10:52:53"
+    },
+    "nodejs.nodejs": {
+        "description": "Open-source, cross-platform JavaScript runtime environment",
+        "homepage": "https://nodejs.org/",
+        "license": "MIT",
+        "source_url": "https://formulae.brew.sh/api/formula/node.json",
+        "source_sha256": "dbcbd5cac812abd71aac97b58f9d918227c81a26880309824b16e53f56a72fa9",
+        "fetched_at": "2026-10-29 10:52:53"
+    },
+    "docker.desktop": {
+        "description": "App to build and share containerised applications and microservices",
+        "homepage": "https://www.docker.com/products/docker-desktop",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/docker-desktop.json",
+        "source_sha256": "e919e3fe3bb3f7487697d27a3a2dc45002542d293c33c22e953c4fc9a1a84a48",
+        "fetched_at": "2026-10-29 10:52:53"
+    },
+    "oracle.virtualbox": {
+        "description": "Virtualiser for arm64 hardware",
+        "homepage": "https://www.virtualbox.org/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/virtualbox.json",
+        "source_sha256": "db5ee59922825835205acfdc9c4cb70b8ee610d21efa48c7771324727942b2a8",
+        "fetched_at": "2026-10-29 10:52:54"
+    },
+    "teamviewer.teamviewer": {
+        "description": "Remote access and connectivity software focused on security",
+        "homepage": "https://www.teamviewer.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/teamviewer.json",
+        "source_sha256": "90214cded0540f0094a4fd5e8aeb88609456007f103d31447a1c8be621f15274",
+        "fetched_at": "2026-10-29 10:52:54"
+    },
+    "anydesk.anydesk": {
+        "description": "Allows connection to a computer remotely",
+        "homepage": "https://anydesk.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/anydesk.json",
+        "source_sha256": "2a9217fe21077cb3af7b124c337afeaf6c6f120b3406c771c7341e4bcba03f7a",
+        "fetched_at": "2026-10-29 10:52:54"
+    },
+    "openvpn.connect": {
+        "description": "Client program for the OpenVPN Access Server",
+        "homepage": "https://openvpn.net/client/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/openvpn-connect.json",
+        "source_sha256": "ea99915231de61c3ec5793fa4e000bc01bf051e5ebdb17d97bfdf983e41ede3f",
+        "fetched_at": "2026-10-29 10:52:54"
+    },
+    "libreoffice.libreoffice": {
+        "description": "Free cross-platform office suite, fresh version",
+        "homepage": "https://www.libreoffice.org/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/libreoffice.json",
+        "source_sha256": "c8da9771d81841f1002f4ee464d249fd91f635b7b9cfea09303991615a099f84",
+        "fetched_at": "2026-10-29 10:52:55"
+    },
+    "dropbox.dropbox": {
+        "description": "Client for the Dropbox cloud storage service",
+        "homepage": "https://www.dropbox.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/dropbox.json",
+        "source_sha256": "928fb45f817caaa394e49904cf335daa7373aca4a7c4bfa72c52b9fae6071ff4",
+        "fetched_at": "2026-10-29 10:52:55"
+    },
+    "bitwarden.bitwarden": {
+        "description": "Desktop password and login vault",
+        "homepage": "https://bitwarden.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/bitwarden.json",
+        "source_sha256": "0dbb8b65c2f90b6cc6508440c556e010566fcd656ebbe53da3b73abe3363d57a",
+        "fetched_at": "2026-10-29 10:52:55"
+    },
+    "1password.1password": {
+        "description": "Password manager that keeps all passwords secure behind one password",
+        "homepage": "https://1password.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/1password.json",
+        "source_sha256": "0a55d55d1c5811e45236d304959e04742af5fd63f889c84144aae6282a4aaae2",
+        "fetched_at": "2026-10-29 10:52:56"
+    },
+    "gimp.gimp": {
+        "description": "Free and open-source image editor",
+        "homepage": "https://www.gimp.org/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/gimp.json",
+        "source_sha256": "dd32196862e81dc0a8cc98fb9a213aa1133e28ff76d5a8a3a2cad75f544e07a9",
+        "fetched_at": "2026-10-29 10:52:56"
+    },
+    "inkscape.inkscape": {
+        "description": "Vector graphics editor",
+        "homepage": "https://inkscape.org/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/inkscape.json",
+        "source_sha256": "8ec4f817ee784e0d4f816de6628fa7e41f8cd1dba535000b005b3e81fe331c5b",
+        "fetched_at": "2026-10-29 10:52:56"
+    },
+    "blender.blender": {
+        "description": "3D creation suite",
+        "homepage": "https://www.blender.org/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/blender.json",
+        "source_sha256": "c99adc6c01ea3207a6a71366ad9e8ac65642c9b064d51e1d1c554078ed519e78",
+        "fetched_at": "2026-10-29 10:52:56"
+    },
+    "obs.obsstudio": {
+        "description": "Open-source software for live streaming and screen recording",
+        "homepage": "https://obsproject.com/",
+        "license": "",
+        "source_url": "https://formulae.brew.sh/api/cask/obs.json",
+        "source_sha256": "4aa72a5ea30d9992488cda8dfc7c53e3f6b889494c0380a367fe6c227df5836f",
+        "fetched_at": "2026-10-29 10:52:57"
+    }
+}
